@@ -1,0 +1,102 @@
+/* Tasks Styles */
+.tasks-container {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.tasks-content {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.task-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.task-form input:focus,
+.task-form textarea:focus,
+.task-form select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+}
+
+.task-form button {
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.task-form button:hover {
+  background: #5568d3;
+}
+
+.tasks-list {
+  overflow-x: auto;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+.task-table tr:hover {
+  background: #f9f9f9;
+}
+
+.task-table select {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.task-table button {
+  padding: 6px 12px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task-table button:hover {
+  background: #c82333;
+}
